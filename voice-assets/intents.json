@@ -1,0 +1,45 @@
+{
+  "intents": [
+    {
+      "intent": "MultiplyIntent",
+      "slots": [
+        {
+          "name": "x",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "y",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "DivideIntent",
+      "slots": [
+        {
+          "name": "x",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "y",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

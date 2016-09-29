@@ -1,0 +1,5 @@
+MultiplyIntent multiply {x} and {y}
+MultiplyIntent multiplication of {x} and {y}
+
+DivideIntent divide {x} by {y}
+DivideIntent divide {x} with {y}
