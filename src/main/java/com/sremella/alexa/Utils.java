@@ -1,4 +1,4 @@
-package com.kubra.alexa;
+package com.sremella.alexa;
 
 import com.amazon.speech.speechlet.SpeechletResponse;
 import com.amazon.speech.ui.PlainTextOutputSpeech;

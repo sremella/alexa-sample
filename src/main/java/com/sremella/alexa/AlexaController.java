@@ -1,10 +1,10 @@
-package com.kubra.alexa;
+package com.sremella.alexa;
 
 import com.amazon.speech.Sdk;
 import com.amazon.speech.json.SpeechletRequestEnvelope;
 import com.amazon.speech.json.SpeechletResponseEnvelope;
 import com.amazon.speech.speechlet.*;
-import com.kubra.alexa.math.MathIntents;
+import com.sremella.alexa.math.MathIntents;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import static com.kubra.alexa.Utils.response;
+import static com.sremella.alexa.Utils.response;
 
 @Controller
 @RequestMapping

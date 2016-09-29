@@ -1,4 +1,4 @@
-package com.kubra.alexa.math;
+package com.sremella.alexa.math;
 
 import com.amazon.speech.slu.Intent;
 import com.amazon.speech.speechlet.IntentRequest;
@@ -6,7 +6,7 @@ import com.amazon.speech.speechlet.Session;
 import com.amazon.speech.speechlet.SpeechletResponse;
 import org.springframework.stereotype.Service;
 
-import static com.kubra.alexa.Utils.response;
+import static com.sremella.alexa.Utils.response;
 
 @Service
 public class MathIntents {
