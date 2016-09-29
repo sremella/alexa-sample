@@ -3,3 +3,8 @@ MultiplyIntent multiplication of {x} and {y}
 
 DivideIntent divide {x} by {y}
 DivideIntent divide {x} with {y}
+
+AdditionStartIntent start additions
+
+AdditionIntent add {x}
+AdditionIntent {x}

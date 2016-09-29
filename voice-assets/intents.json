@@ -27,6 +27,18 @@
       ]
     },
     {
+      "intent": "AdditionStartIntent"
+    },
+    {
+      "intent": "AdditionIntent",
+      "slots": [
+        {
+          "name": "x",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
       "intent": "AMAZON.HelpIntent"
     },
     {
